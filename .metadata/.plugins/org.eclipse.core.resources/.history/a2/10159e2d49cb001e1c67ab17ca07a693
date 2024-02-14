@@ -1,0 +1,11 @@
+package application;
+import entities.InvertedString;
+
+public class Main {
+	 public static void main(String[] args) {
+	        String str = "Oi! Eu sou a Thalyta, me contrata por favor, preciso alimentar meus gatos! Sou proativa, curiosa e aprendo rápido! Tenho noção no front end também por ter trabalhado como Social Media"; 
+	        InvertedString si = new InvertedString(str);
+
+	        System.out.println(si);
+	    }
+}

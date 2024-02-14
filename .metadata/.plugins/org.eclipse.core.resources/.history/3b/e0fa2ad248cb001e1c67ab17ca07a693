@@ -1,0 +1,10 @@
+package application;
+
+public class Main {
+	 public static void main(String[] args) {
+	        String str = "Exemplo de string"; // String a ser invertida
+	        StringInvertida si = new StringInvertida(str);
+
+	        System.out.println(si);
+	    }
+}
